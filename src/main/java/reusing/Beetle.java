@@ -11,7 +11,7 @@ class Insect {
   }
   private static int x1 =
     printInit("static Insect.x1 initialized");
-  static int printInit(String s) {
+  public static int printInit(String s) {
     print(s);
     return 47;
   }
