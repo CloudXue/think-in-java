@@ -1,11 +1,6 @@
 package innerclasses;//: innerclasses/Sequence.java
 // Holds a sequence of Objects.
 
-interface Selector {
-  boolean end();
-  Object current();
-  void next();
-}	
 
 public class Sequence {
   private Object[] items;
